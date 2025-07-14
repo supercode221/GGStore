@@ -20,10 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Extensions\" />
     <Folder Include="Models\ViewModels\" />
-    <Folder Include="Views\Home\" />
     <Folder Include="Views\Users\" />
     <Folder Include="Views\Shared\" />
     <Folder Include="wwwroot\css\" />
