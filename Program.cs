@@ -1,4 +1,6 @@
-using BLL.Mapping;
+using _HACore.Logs.Implements;
+using _HACore.Logs.Interfaces;
+using _HACore.Logs.Models;
 using GGStore.MIddlewares;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,9 +8,6 @@ builder.Services.AddControllersWithViews();
 
 //Dependency Injection
 DependencyConfig.RegisterDependency(builder.Services);
-
-//Auto Mapper
-builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
 
